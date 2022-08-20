@@ -1,0 +1,63 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #2F4F4F;
+    background-image: url(../image/pocket-watch-3156771_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    text-align: center;
+    margin: 30px auto;
+    width: 350px;
+    padding: 15px;
+    background: #3E3F31;
+    border-radius: 10px;
+}
+
+.container {
+    font-size: 3em;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 2.6em;
+    color: #141410;
+}
+
+.watch {
+    margin: 2px;
+    padding: 3px;
+    background: #9c948bcb;
+    border-radius: 5px;
+}
+.watch:hover {
+    color: gold;
+}
+
+.btn {
+    display: flex;
+    padding-left: 12px;
+    justify-content: center;
+}
+
+button {
+    font-weight: bold;
+    background: #afa79c;
+    border: none;
+    margin:5px 9px;
+    padding: 10px;
+    border-radius: 10px;
+}
+button:hover {
+    background: #141410;
+    color: whitesmoke;
+}
