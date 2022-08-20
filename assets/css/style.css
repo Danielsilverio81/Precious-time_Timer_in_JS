@@ -13,7 +13,8 @@ body {
 section {
     text-align: center;
     margin: 30px auto;
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     padding: 15px;
     background: #3E3F31;
     border-radius: 10px;
@@ -53,4 +54,29 @@ button {
 button:hover {
     background: #141410;
     color: whitesmoke;
+}
+
+.footer {
+    font-size: 12px;
+    position:absolute;
+    left: 10px;
+    bottom: 0;
+    color: #141410;
+}
+.footer a {text-decoration: none;}
+
+/*Media Queries:*/
+
+@media (max-width: 936px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../image/watches-1204696.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 377px) {
+    section {width: 90%;}
 }
